@@ -76,7 +76,6 @@ def statistika(soucet_pokusu):
 def hlavni():
     print("Hello, I've generated a random 4 digit number for you.\nLet s play a BULLS and COWS game.")
     vybrane_cislo = tajne_cislo()
-    print(vybrane_cislo)  # iba na overenie- ci pocitame spravne!!! potom odstranit!!!
     hodnoceni = 0
     soucet_pokusu = 0
     while hodnoceni != 4:
